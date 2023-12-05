@@ -5,7 +5,7 @@ import streamlit as st
 import random
 
 # Streamlit UI
-st.title("Secret Santa App")
+st.title("🎄 Simple Secret Santa App 🎄")
 
 with st.form("participant_form"):
     name = st.text_input("Name")
